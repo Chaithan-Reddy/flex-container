@@ -25,6 +25,23 @@
     margin-right: 40px;
 }
 
+.burger {
+    background-size: 800px;
+    position: relative;
+}
+.burger > p {
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    font-size: 40px;
+    opacity: 70%;
+}
+
+.burger > img {
+    width: 100%;
+    background-size: cover;
+    /* margin-right: 5px; */
+}
 .class1 {
     display: flex;
     align-items: center;
@@ -43,3 +60,26 @@
     height: 627px;
  }
 
+ .form > input {
+    width: 100%;
+    height: 30px;
+ }
+button {
+    background-color: lightgray;
+    height: 40px;
+    width: 140px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: lightsteelblue;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+}
+.footer > p {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
